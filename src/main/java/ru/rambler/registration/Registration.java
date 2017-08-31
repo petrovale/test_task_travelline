@@ -113,7 +113,6 @@ public class Registration {
     @Test
     public void testPasswordLargerMax() throws Exception {
         webDriver.get("https://id.rambler.ru/account/registration");
-        //webDriver.findElement(By.id("login.username")).sendKeys("x");
         webDriver.findElement(By.id("password.main")).sendKeys("asdfghjklqasdfghjklqasdfghjklqddf");
         webDriver.findElement(By.cssSelector("#root > div > div > form > footer > button")).click();
         Assert.assertEquals("Пароль должен содержать от 6 до 32 символов",
@@ -124,7 +123,6 @@ public class Registration {
     @Test
     public void testPasswordNonLatinLetters() throws Exception {
         webDriver.get("https://id.rambler.ru/account/registration");
-        //webDriver.findElement(By.id("login.username")).sendKeys("x");
         webDriver.findElement(By.id("password.main")).sendKeys("вапвавпа");
         webDriver.findElement(By.cssSelector("#root > div > div > form > footer > button")).click();
         Assert.assertEquals("Вы вводите русские буквы",
