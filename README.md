@@ -4,7 +4,6 @@
 - [3. Автоматическая авторизация в ящик rambler.ru и проверка наличия новых писем.](https://github.com/petrovale/test_task_travelline/tree/master/src/main/java/ru/rambler/authorization)
 
 Тестирование на браузер Google Chrome версии 60.0.3112.113
-
 ## 1. Набор ручных тестов для проверки формы регистрации почтового ящика rambler.ru https://id.rambler.ru/account/registration
 
 ## Тест-кейс № 01. Проверка всех текстовых полей, переключателей, кнопок и т. д.
